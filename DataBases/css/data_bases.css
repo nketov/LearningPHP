@@ -1,0 +1,309 @@
+body {
+    background: url("../images/irongrip.png");
+    background-repeat: repeat;
+    padding: 15px;
+    color: #ff9;
+}
+
+:link, :visited, :hover, :focus, :active {
+    outline: none;
+}
+
+select, input, #selectButton, #backButton, .buttonsCRUD span, .saveButton, .createButton {
+    cursor: url("../../images/cursor.png"), pointer;
+}
+
+table {
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    empty-cells: hide;
+    text-align: left;
+    color: #000;
+    margin: 7px;
+}
+
+h2 {
+    font-family: Magneto, sans-serif;
+    color: #112245;
+    text-shadow: 0 0 1px #738DE9, 0 0 2px #738DE9, 0 0 3px #6981D5, 0 0 4px #6981D5, 0 0 6px #6981D5, 0 0 8px #6981D5, 0 0 10px #435288, 0 0 20px #435288;
+
+}
+
+th, td:first-child {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: #117;
+    background: linear-gradient(to bottom right, #738DE9 25%, #6981D5 50%, #435288 75%, #334278 100%) !important;
+    text-shadow: 0 0 1px #dd0,
+    0 0 2px #dd0,
+    0 0 3px #ee0,
+    0 0 4px #ee0,
+    0 0 6px #ff0,
+    0 0 8px #ff0,
+    0 0 10px #fff,
+    0 0 20px #fff;
+    padding: 6px 10px;
+}
+
+td:first-child {
+    color: #fff;
+}
+
+td {
+    border-bottom: 1px inset #123;
+    padding: 1px 10px 1px 7px;
+    transition: all 1s linear;
+}
+
+th {
+    padding: 10px 20px;
+    border-bottom: 2px inset #123;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tbody tr:first-child td:first-child {
+    border-top-left-radius: 5px;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+td:nth-child(even), p:nth-child(even) {
+    background: #CDF;
+}
+
+td:nth-child(odd), p:nth-child(odd) {
+    background: #BCE;
+}
+
+tr:nth-child(odd) {
+    opacity: 0.90;
+}
+
+tbody tr:hover td {
+    color: #ff3;
+    background: #123;
+}
+
+#tablePattern {
+    display: none;
+    margin: 25px;
+}
+
+#categorySelect {
+    display: none;
+}
+
+#selectButton, #backButton {
+    display: none;
+    width: 298px;
+    height: 147px;
+    float: right;
+}
+
+#backButton {
+    background-image: url("../images/back_button_0.png");
+}
+
+#selectButton {
+    background-image: url("../images/select_button_0.png");
+}
+
+#selectButton:hover {
+    background-image: url("../images/select_button.png");
+}
+
+#backButton:hover {
+    background-image: url("../images/back_button.png");
+}
+
+#selectPattern {
+    display: none;
+}
+
+select, input {
+    text-align: right;
+    margin: 10px;
+
+    background: linear-gradient(to bottom right,
+    #FFF 25%,
+    #BBB 50%,
+    #999 75%,
+    #777 100%) !important;
+
+    font: bold italic 24px "Segoe UI";
+    color: #051525;
+    border: 3px solid #6981D5;
+    border-radius: 2%;
+}
+
+select > option {
+    color: #000;
+    background: #BBB;
+}
+
+.buttonsCRUD {
+    background: none !important;
+    padding: 5px;
+    border-bottom: none;
+}
+
+.buttonsCRUD span, .saveButton {
+    padding: 2px;
+    float: left;
+    margin-left: 1px;
+    border: 2px solid #000;
+
+    background: linear-gradient(to bottom right,
+    #FFF 25%,
+    #CCC 50%,
+    #AAA 75%,
+    #888 100%) !important;
+
+    border-radius: 15%;
+    width: 24px;
+    height: 24px;
+}
+
+.buttonsCRUD span:hover, .saveButton:hover {
+    border: 2px solid #ff0;
+
+    background: linear-gradient(to bottom right,
+    #738DE9 25%,
+    #6981D5 50%,
+    #435288 75%,
+    #334278 100%) !important;
+}
+
+.buttonsCRUD span:active, .saveButton:active {
+    border: 2px solid #0f0;
+
+    background: linear-gradient(to bottom right,
+    #DD0 25%,
+    #BB0 50%,
+    #990 75%,
+    #770 100%) !important;
+}
+
+#overlay {
+    z-index: 3;
+    position: fixed;
+    background: #000;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#panelPattern {
+    width: 0;
+    height: 0;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+
+    background: linear-gradient(to bottom right,
+    #CDF 25%,
+    #BCE 50%,
+    #ABD 75%,
+    #9AC 100%) !important;
+
+    position: fixed;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 0;
+    border-radius: 3%;
+}
+
+.closePanelButton {
+    font-size: 26px;
+    width: 20px;
+    height: 32px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.closePanelButton:hover {
+    text-shadow: 0 0 1px #dd0,
+    0 0 1px #dd0,
+    0 0 2px #ee0,
+    0 0 3px #ee0,
+    0 0 4px #ff0,
+    0 0 5px #ff0,
+    0 0 7px #fff,
+    0 0 10px #fff;
+}
+
+#panelHead {
+    border-bottom: 2px inset #123;
+
+    background: linear-gradient(to bottom right,
+    #738DE9 25%,
+    #6981D5 50%,
+    #435288 75%,
+    #334278 100%) !important;
+
+    width: 100%;
+    height: 35px;
+}
+
+p {
+    margin: 0;
+    width: 305px;
+    padding: 2px 10px;
+}
+
+p:nth-child(odd) {
+    font-size: 18px;
+    text-align: left;
+    color: #127;
+}
+
+p:nth-child(even) {
+    font-size: 16px;
+    text-align: right;
+}
+
+td input, td select, p input, p select {
+    margin: 0;
+    text-align: center;
+    padding: 2px 0;
+    font: bold 14px "Segoe UI";
+    color: #000;
+    border: 1px solid #000;
+
+}
+
+.saveButton {
+    display: none;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.createButton {
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    background: url("../images/add_0.png");
+}
+
+.createButton:hover {
+    background: url("../images/add.png");
+}
+
+.createButton:active {
+    background: url("../images/add_1.png");
+}

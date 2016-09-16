@@ -1,0 +1,71 @@
+body {
+    background: url("../images/white-background.jpg");
+    padding: 25px;
+}
+
+
+
+:link, :visited, :hover, :focus, :active{
+    outline: none;
+}
+
+.button{
+    display: inline;
+    background: #55B;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.big{
+    font-size: 30px;
+}
+
+#openButton{
+   background: #00CC99;
+}
+
+#deleteButton{
+    background: #FF5577;
+}
+
+#saveButton{
+    background: #ffb73d;
+}
+
+.button:hover{
+    background: #FF6 !important;
+    color: #333 !important;
+}
+
+
+.button:active{
+    color: #0C0 !important;
+}
+
+
+input, label, textarea, .button {
+    cursor: url(/images/cursor.png), pointer;
+}
+
+p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+textarea,input,select,label {
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #333;
+    border-radius: 10px;
+    padding: 3px;
+    background: linear-gradient(to right bottom, #DDD 50%, #999 100%) !important;
+    outline: none;
+    margin: 25px 5px;
+}
+
+

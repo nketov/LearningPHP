@@ -1,0 +1,90 @@
+
+body {
+    background: url("../images/newspapers.jpg");
+    padding: 15px;
+}
+
+:link, :visited, :hover, :focus, :active {
+    outline: none;
+}
+
+button,a {
+    cursor: url("../../images/cursor.png"), pointer !important;
+}
+
+.emblem {
+    width: 64px;
+    height: 64px;
+}
+
+.siteImg {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#newsOfKramatorskHeader {
+    font-family: Tahoma, Arial, sans-serif;
+    float: right;
+    margin: 0px 25px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #00D;
+    text-shadow: 0 0 1px #dd0,
+    0 0 2px #dd0,
+    0 0 4px #ee0,
+    0 0 6px #ee0,
+    0 0 8px #ff0,
+    0 0 10px #ff0,
+    0 0 12px #fff,
+    0 0 25px #fff;
+}
+
+.page {
+    font-size: 18px !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    color: #5CF !important;
+    overflow: auto;
+}
+
+.page p *{
+    font-size: 18px !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    color: #5CF !important;
+}
+
+
+h1 {
+    font-size: 26px;
+    color: #00FF55;
+    margin-bottom: 3px;
+}
+
+h6 {
+    margin: 0;
+    color: #E1DD60;
+}
+
+
+.page p *{
+    font-size: 18px !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    color: #5CF !important;
+}
+
+
+.page img {
+    float: right;
+    margin: 25px;
+    border:  4px outset #ffb;
+    border-radius: 15px;
+    width: 650px;
+
+}
+
+.page iframe {
+    float: right;
+    margin: 15px;
+    border:  4px outset #bff;
+    border-radius: 15px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Базы Данных</title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <link rel="stylesheet" href="css/data_bases.css">
+    <script type="text/javascript" src="js/DB_script.js"></script>
+    <script type="text/javascript" src="../Forms/js/jquery-ui.min.js"></script>
+    <link type="text/css" href="../Forms/js/jquery-ui.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div id="selectButton"></div>
+<div id="backButton"></div>
+
+<div id="tablePattern">
+    <h2></h2>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<select id="categorySelect" size="1">
+    <option value="1">Все альбомы исполнителя</option>
+    <option value="2">Альбомы по годам</option>
+    <option value="3">Песни исполнителя на букву</option>
+</select>
+
+<select id="selectPattern" size="1">
+    <option></option>
+</select>
+
+
+<div id="overlay"></div>
+
+<div id="panelPattern">
+
+    <div id="panelHead">
+    <span class="closePanelButton">X</span>
+    </div>
+
+    <div class="saveButton"><img src="images/save.png"></div>
+
+
+</div>
+
+</body>
+</html>

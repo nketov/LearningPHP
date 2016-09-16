@@ -1,0 +1,247 @@
+body {
+    background: url("../../DataBases/images/asfalt.png");
+}
+
+:link, :visited, :hover, :focus, :active {
+    outline: none;
+}
+
+#hideText, #showText, h2, .cityImage, #slider, label,#overlay {
+    cursor: url("../../images/cursor.png"), pointer !important;
+}
+
+#selectCitiesAccordion {
+    float: left;
+    width: 21%;
+}
+
+#desktop {
+    float: right;
+    width: 75%;
+    height: 445px;
+    margin: 5px;
+    /*border: 15px inset #555;*/
+    /*border-radius: 25px;*/
+    /*background: url("../images/asfalt.png");*/
+    padding: 5px;
+    overflow: hidden;
+}
+
+.cityBlock {
+
+    border-radius: 20px;
+    width: 330px;
+    height: 435px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 3px;
+}
+
+.headerCityBlock {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    color: #FFFF99;
+    background: linear-gradient(to bottom right, #1277A8 25%, #0D72A3 50%, #086D9E 75%, #036899 100%) !important;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.cityImage {
+    width: 325px;
+    height: 185px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+
+.cityAccordion div span {
+    font-size: 16px !important;;
+
+    position: relative !important;;
+    top: 5px !important;;
+}
+
+.cityAccordion div {
+    padding: 2px 20px !important;
+}
+
+.cityAccordion {
+    width: 300px;
+    margin: auto !important;;
+}
+
+.cityAccordion div, .cityAccordion h2 a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cityAccordion h2 {
+    height: 3px !important;
+}
+
+.cityAccordion h2 * {
+    cursor: url("../../images/cursor.png"), pointer !important;
+    position: relative;
+    bottom: 16px;
+}
+
+.cityCountryFlag {
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+.cityCountry {
+    color: #99FEAA;
+}
+
+#populationBlock label {
+    font-size: 12px;
+}
+
+#populationBlock  input {
+    margin:3px;
+    font-size: 12px !important;
+    font-weight: bold;
+    border: 5px outset #777;
+    border-radius: 5px;
+    padding: 2px;
+    outline: none;
+    text-align: center;
+}
+
+input {
+    font-size: 12px;
+    font-weight: bold;
+    border: 3px solid #333;
+    border-radius: 10px;
+    padding: 3px;
+    background: linear-gradient(to right bottom, #DDD 50%, #999 100%) !important;
+    outline: none;
+    margin: 0px;
+    float: left;
+}
+
+
+li img {
+    margin: 3px;
+    width: 64px;
+    height: 64px;
+
+}
+
+#selectCountry .ui-selecting img {
+    background: #fff;
+}
+
+#selectCountry .ui-selected img {
+    background: #ff0;
+}
+
+
+#selectCountry li {
+    margin: 2px;
+    display: inline;
+    border: none;
+}
+
+#selectCountry li img {
+    border-radius: 50px;
+}
+
+#addButton{
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    background: url("../images/add_0.png") ;
+    float: right;
+}
+
+#addButton:hover {
+    background: url("../images/add.png");
+}
+
+#addButton:active {
+    background: url("../images/add_1.png");
+}
+
+#overlay {
+    z-index: 3;
+    position: fixed;
+    background: #000;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#leftOverlay {
+    z-index: 4;
+    border-radius: 25px;
+    position: fixed;
+    background: #000;
+    width: 150px;
+    height: 650px;
+    top: 100px;
+    left: -35px;
+}
+
+#rightOverlay {
+    z-index: 4;
+    border-radius: 25px;
+    position: fixed;
+    background: #000;
+    width: 150px;
+    height: 650px;
+    top: 100px;
+    right: -35px;
+}
+
+
+#rightOverlay:hover, #leftOverlay:hover {
+    background: #222;
+    opacity: 1;
+}
+
+#rightOverlay:active, #leftOverlay:active {
+    background: #AAA;
+    opacity: 1;
+}
+
+#rightOverlay  img{
+    position: relative;
+    width: 100px;
+    height: 600px;
+    top: 25px;
+    left: 10px;
+}
+
+#leftOverlay  img{
+    position: relative;
+    width: 100px;
+    height: 600px;
+    top: 25px;
+    left: 37px;
+}
+
+
+
+#bigImage {
+    top:0;
+    left:0;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 5;
+
+}
+

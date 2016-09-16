@@ -1,0 +1,95 @@
+body {
+    background: url("../images/tp2.png");
+}
+
+:link, :visited, :hover, :focus, :active{
+    outline: none;
+}
+
+#imageLoad, #page2, #page3 {
+    display: none;
+}
+
+input, label, textarea, .button, #buttonClearUploaded {
+    cursor: url(/images/cursor.png), pointer;
+}
+
+input, textarea {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    border: 3px solid #333;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to right bottom, #DDD 50%, #999 100%) !important;
+    outline: none;
+    margin: 5px;
+}
+
+.page {
+    color: #777;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 0 0 3px #000, 0 0 4px #333, 0 0 7px #333, 0 0 10px #333, 0 0 15px #333, 0 0 20px #333;
+    height: 580px;
+    width: 480px;
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    margin-left: -240px;
+    padding: 2%;
+    box-shadow: 7px 7px #000;
+    background: url("../images/p1.png");
+    border-radius: 30px;
+    border: 7px solid #333;
+}
+
+textarea {
+    width: 90%;
+}
+
+#buttonUpload, #buttonClearUploaded {
+    height: 50px;
+    display: inline;
+    font-size: 22px;
+    border: 6px outset #555;
+    border-radius: 15px;
+}
+
+#file {
+    display: none;
+    overflow: hidden;
+    text-shadow: none;
+}
+
+#close-button, #right-button, #mail-button {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+#blank-button, #left-button {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+#file {
+    text-shadow: none;
+    color: #000;
+}
+
+#e-mail {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+#mailAnimation {
+    position: absolute;
+    left: 160px;
+    top: 200px;
+}
+

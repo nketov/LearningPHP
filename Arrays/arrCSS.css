@@ -1,0 +1,106 @@
+body {
+    background: #eae0c2;
+
+}
+
+h3{
+    color: #2525DD;
+    font: bold 20pt Arial;
+    margin: 15px;
+}
+
+table {
+    margin: 15px;
+}
+
+td {
+    font: bold 12pt Tahoma;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 30%;
+    border: 6px inset #000;
+}
+
+.AntiD {
+    color: #455055;
+    background: #90A1A5;
+}
+
+.MainD {
+    color: #DDD;
+    background: #000;
+}
+
+.normalElement {
+    color: #000;
+    background: #455055;
+}
+
+.result .maxElement, .result .minElement {
+    text-align: center;
+    width: 450px;
+    margin: 15px;
+    font: bold 12pt Tahoma;
+
+}
+
+.maxElement {
+    color: #FF5577;
+    background: #000;
+
+}
+
+.minElement {
+    color: #DDCC00;
+    background: #90A1A5;
+}
+.add:before
+{
+    content: "\271A";
+}
+
+.edit:before
+{
+    content: "\270E";
+}
+
+.delete:before
+{
+    content: "\2718";
+}
+
+.save:before
+{
+    content: "\2714";
+}
+
+.email:before
+{
+    content: "\2709";
+}
+
+.like:before
+{
+    content: "\2764";
+}
+
+.next:before
+{
+    content: "\279C";
+}
+
+.star:before
+{
+    content: "\2605";
+}
+
+.spark:before
+{
+    content: "\2737";
+}
+
+.play:before
+{
+    content: "\25B6";
+}

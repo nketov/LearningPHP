@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning PHP</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/main_script.js"></script>
+
+</head>
+<body>
+<div  id="user"><img src="/images/user.gif"><span></span></div>
+<a href="#panelLogon" class="button openPanel" id="buttonLogon"><img src="/images/key.gif"><br> Вход</a>
+<div id="buttonLogout" class="button"><img src="images/exit.png"><br>Выйти</div>
+<img id="world" src="images/php_w.png">
+
+<a href="/Arrays/main.php" class="button complete"><img src="/images/php.png"> Массивы</a>
+<a href="/Forms/forms.html" class="button complete"><img src="/images/php.png"> Формы</a>
+<a href="/Files/files.html" class="button complete"><img src="/images/php.png"> Файлы</a>
+<a href="/DataBases/data_bases.html" class="button complete" id="buttonDB"><img src="/images/php.png">Базы Данных</a>
+<br>
+<a href="/jQueryUI/jQueryUI.html" class="button complete"><img src="/images/php.png"> jQuery UI</a>
+<a href="/cURL/cURL.html" class="button complete"><img src="/images/php.png"> cURL</a>
+
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<br>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<br>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+<a class="button not-complete"><img src="/images/php-purple.png">. . .</a>
+
+<div id="panelLogon" class="panel">
+    <img id="imgKey" src="images/key.png">
+
+    <span class="closePanelButton"></span>
+    <br>
+    <br>
+    <p><label>Login(e-mail): <br><INPUT id="login" type="text" size=35></label></p>
+    <p><label>Password: <br><INPUT id="password" type="password" size=35></label></p>
+    <div id="enter" class="panelButtons">Вход</div>
+    <p class="error"></p>
+    <p class="message"></p>
+    <a href="#panelRegistration" class="openPanel panelButtons" id="buttonRegistration">Регистрация</a>
+    <a href="#panelSendPassword" class="openPanel panelButtons" id="buttonSendPassword">Выслать пароль</a>
+</div>
+
+<div id="panelRegistration" class="panel">
+    <span class="closePanelButton"></span>
+
+    <p><label>E-mail: <br><INPUT id="email" type="text" size=35></label></p>
+    <p><label>Password: <br><INPUT id="password1" type="password" size=35></label></p>
+    <p><label>Password Validation: <br><INPUT id="password2" type="password" size=35></label></p>
+    <p class="error"></p>
+    <div id="registration"><img src="images/button_register.png"></div>
+    </div>
+
+<div id="panelSendPassword" class="panel">
+    <span class="closePanelButton"></span>
+    <p><label>E-mail: <br><INPUT id="emailForPassword" type="text" size=35></label></p>
+    <p class="message"></p>
+    <p class="error"></p>
+    <div id="sendPassword" class="panelButtons">Выслать новый пароль</div>
+</div>
+
+
+<div id="overlay"></div>
+
+</body>
+</html>

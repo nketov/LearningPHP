@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryUI</title>
+
+    <link rel="stylesheet" href="css/jQueryUI.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <link type="text/css" href="js/jquery-ui.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jQueryUI_script.js"></script>
+
+</head>
+
+<body>
+
+<div id="selectCitiesAccordion">
+    <h2><a href="#">по населению</a></h2>
+    <div id="populationBlock">
+
+        <input size="8" type="text" id="minPopulation" value="0" disabled>
+
+        <input size="8" type="text" id="maxPopulation" value="10000000" disabled>
+        <br><br>
+
+        <div id="slider"></div>
+
+        </label>
+    </div>
+
+    <h2><a href="#">по странам</a></h2>
+    <div>
+
+        <ul id="selectCountry">
+        </ul>
+
+    </div>
+
+    <h2><a href="#">добавить город</a></h2>
+    <div>
+        <input size="12" id="tags">
+        <div id="addButton"></div>
+    </div>
+
+</div>
+
+
+<div id="desktop">
+
+    <div id="cityBlockPattern">
+        <div class="headerCityBlock"></div>
+        <img class="cityImage" src="">
+
+        <div class="cityAccordion">
+            <h2><a href="#">Страна</a></h2>
+            <div>
+                <span class="cityCountry"></span><img class="cityCountryFlag" src="">
+            </div>
+
+            <h2><a href="#">Население</a></h2>
+            <div class="cityPopulation">
+            </div>
+
+            <h2><a href="#">Площадь</a></h2>
+            <div class="cityArea">
+            </div>
+            <h2><a href="#">Описание</a></h2>
+            <div class="cityText">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="overlay">
+<div id="leftOverlay"><img src="images/left.png"></div>
+<div id="rightOverlay"><img src="images/right.png"> </div>
+</div>
+<img id="bigImage" src="">
+
+</body>
+</html>
