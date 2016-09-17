@@ -27,7 +27,14 @@ table {
 h2 {
     font-family: Magneto, sans-serif;
     color: #112245;
-    text-shadow: 0 0 1px #738DE9, 0 0 2px #738DE9, 0 0 3px #6981D5, 0 0 4px #6981D5, 0 0 6px #6981D5, 0 0 8px #6981D5, 0 0 10px #435288, 0 0 20px #435288;
+    text-shadow: 0 0 1px #738DE9,
+    0 0 2px #738DE9,
+    0 0 3px #6981D5,
+    0 0 4px #6981D5,
+    0 0 6px #6981D5,
+    0 0 8px #6981D5,
+    0 0 10px #435288,
+    0 0 20px #435288;
 
 }
 
