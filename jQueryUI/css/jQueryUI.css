@@ -20,9 +20,6 @@ body {
     width: 75%;
     height: 445px;
     margin: 5px;
-    /*border: 15px inset #555;*/
-    /*border-radius: 25px;*/
-    /*background: url("../images/asfalt.png");*/
     padding: 5px;
     overflow: hidden;
 }
