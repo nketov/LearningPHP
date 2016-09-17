@@ -121,7 +121,7 @@ input {
     padding: 3px;
     background: linear-gradient(to right bottom, #DDD 50%, #999 100%) !important;
     outline: none;
-    margin: 0px;
+    margin: 0;
     float: left;
 }
 
